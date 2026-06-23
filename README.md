@@ -36,7 +36,9 @@ AI engineer focused on LLM-driven, agentic systems — building autonomous appli
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hemnaath04&bg_color=000000&color=F5F5F5&line=CCFF00&point=DFFF00&area=true&area_color=CCFF00&hide_border=true&custom_title=Commits%20over%20time" alt="Activity graph" />
+  <a href="https://github.com/hemnaath04">
+    <img src="https://ghchart.rshah.org/CCFF00/hemnaath04" alt="Hemnaath's contribution calendar" />
+  </a>
 </p>
 
 ---
