@@ -55,3 +55,4 @@ Previously at **EPAM** as a Test Automation Engineer on the Fares client — bui
 ---
 
 <sub><i>"Track every application. Tailor every resume. Never lie on your CV." — from <a href="https://github.com/hemnaath04/job-os">job.os</a></i></sub>
+
