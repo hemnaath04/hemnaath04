@@ -31,13 +31,13 @@ AI engineer focused on LLM-driven, agentic systems — building autonomous appli
 ### 📊 Activity
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=hemnaath04&show_icons=true&hide=contribs&hide_border=true&bg_color=000000&title_color=CCFF00&text_color=F5F5F5&icon_color=CCFF00" alt="GitHub stats" />
-  <img height="160" src="https://streak-stats.demolab.com?user=hemnaath04&hide_border=true&background=000000&stroke=000000&ring=CCFF00&fire=DFFF00&currStreakNum=F5F5F5&currStreakLabel=CCFF00&sideNums=F5F5F5&sideLabels=A1A1A1&dates=6B6B6B" alt="Days active" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=hemnaath04&show_icons=true&hide=contribs&hide_border=true&bg_color=000000&title_color=8B5CF6&text_color=F5F5F5&icon_color=A855F7" alt="GitHub stats" />
+  <img height="160" src="https://streak-stats.demolab.com?user=hemnaath04&hide_border=true&background=000000&stroke=000000&ring=8B5CF6&fire=A855F7&currStreakNum=F5F5F5&currStreakLabel=8B5CF6&sideNums=F5F5F5&sideLabels=A1A1A1&dates=6B6B6B" alt="Days active" />
 </p>
 
 <p align="center">
   <a href="https://github.com/hemnaath04">
-    <img src="https://ghchart.rshah.org/CCFF00/hemnaath04" alt="Hemnaath's contribution calendar" />
+    <img src="https://ghchart.rshah.org/8B5CF6/hemnaath04" alt="Hemnaath's contribution calendar" />
   </a>
 </p>
 
