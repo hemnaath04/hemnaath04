@@ -12,7 +12,7 @@
   </a>
 </p>
 
-AI engineer focused on LLM-driven, agentic systems. I build autonomous applications, dataset-scoped retrieval, and shipped LLM products in Python and on my own infra.
+AI engineer building LLM-driven, agentic systems. I ship autonomous applications, dataset-scoped retrieval, and production LLM products in Python, and I run them on my own infrastructure.
 
 📍 Boston, MA · CS MS @ Northeastern Khoury (Jan 2026 to May 2028)
 🛠️ **Open for co-op: January 2027**
@@ -30,11 +30,14 @@ An AI agent that turns a smallholder farmer's WhatsApp photo into a filed crop-i
 **[BedRocked](https://github.com/hemnaath04/bedrocked)** · [Live demo](https://sewershed-bedrocked.vercel.app)
 Ranks Somerville's combined-sewer streets by dig-readiness to sequence a $1.29B separation program, pairing Cyvl street-scan data with city GIS on an interactive map. Built at the Cyvl × Autodesk × NVIDIA × City of Boston Physical-AI Hackathon.
 
+**[HackRadar](https://github.com/hemnaath04/hackradar)**
+A daily-updated directory of hackathons across Boston and the US, aggregated from multiple sources. Web app plus a native iOS companion.
+
 ---
 
 ### 🧠 What I work with
 
-**Languages** Python · Java · Bash
+**Languages** Python · Swift · Java · Bash
 **AI / ML** LLM orchestration · agentic systems · RAG / vector retrieval · knowledge distillation · prompt engineering · embeddings · PyTorch · scikit-learn
 **Backend** FastAPI · async SQLAlchemy · PostgreSQL (+ pgvector) · MongoDB · REST APIs · streaming pipelines
 **Infra** Docker · Render · Vercel · Cloudflare R2 · Alembic
