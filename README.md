@@ -30,8 +30,8 @@ An AI agent that turns a smallholder farmer's WhatsApp photo into a filed crop-i
 **[BedRocked](https://github.com/hemnaath04/bedrocked)** · [Live demo](https://sewershed-bedrocked.vercel.app)
 Ranks Somerville's combined-sewer streets by dig-readiness to sequence a $1.29B separation program, pairing Cyvl street-scan data with city GIS on an interactive map. Built at the Cyvl × Autodesk × NVIDIA × City of Boston Physical-AI Hackathon.
 
-**[HackRadar](https://github.com/hemnaath04/hackradar)**
-A daily-updated directory of hackathons across Boston and the US, aggregated from multiple sources. Web app plus a native iOS companion.
+**Job-OS** · [Live demo](https://job-app-manager-five.vercel.app)
+A personal job-search platform: application tracker, profile-grounded resume tailoring, and multi-source job discovery. FastAPI and LangGraph backend with an agentic pipeline that grounds every resume in real profile data, no invented experience.
 
 ---
 
@@ -53,13 +53,12 @@ Previously at **EPAM** as a Test Automation Engineer on the Fares client, where 
 ### 📊 Activity
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=hemnaath04&show_icons=true&hide=contribs&hide_border=true&bg_color=000000&title_color=CCFF00&text_color=F5F5F5&icon_color=CCFF00" alt="GitHub stats" />
-  <img height="160" src="https://streak-stats.demolab.com?user=hemnaath04&hide_border=true&background=000000&stroke=000000&ring=CCFF00&fire=CCFF00&currStreakNum=F5F5F5&currStreakLabel=CCFF00&sideNums=F5F5F5&sideLabels=A1A1A1&dates=6B6B6B" alt="Days active" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=hemnaath04&show_icons=true&hide=contribs&hide_border=true&cache_seconds=86400&bg_color=000000&title_color=CCFF00&text_color=F5F5F5&icon_color=CCFF00" alt="GitHub stats" />
 </p>
 
 <p align="center">
   <a href="https://github.com/hemnaath04">
-    <img src="https://ghchart.rshah.org/CCFF00/hemnaath04" alt="Hemnaath's contribution calendar" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=hemnaath04&bg_color=000000&color=F5F5F5&line=CCFF00&point=CCFF00&area=true&area_color=CCFF00&hide_border=true" alt="Hemnaath's contribution activity" />
   </a>
 </p>
 
