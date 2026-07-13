@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 350" width="850" height="350" fill="none" role="img" aria-label="Hemnaath — player stats: skills and 2026 season activity">
+  <defs>
+    <linearGradient id="kiwi2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#CCFF00"/><stop offset="1" stop-color="#FFFF00"/>
+    </linearGradient>
+    <style>
+      .h    { font: 700 15px ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing:1.5px; }
+      .lbl  { font: 600 13px ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing:.5px; }
+      .val  { font: 700 13px ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+      .big  { font: 800 40px ui-sans-serif, "Segoe UI", Roboto, Arial, sans-serif; }
+      .cap  { font: 600 11px ui-monospace, Menlo, Consolas, monospace; letter-spacing:1.5px; }
+      .pill { font: 700 11px ui-monospace, Menlo, Consolas, monospace; letter-spacing:1px; }
+    </style>
+  </defs>
+
+  <!-- frame -->
+  <rect width="850" height="350" rx="14" fill="#050505"/>
+  <rect x="0.5" y="0.5" width="849" height="349" rx="14" fill="none" stroke="#CCFF00" stroke-opacity="0.18"/>
+  <g stroke="url(#kiwi2)" stroke-width="2" fill="none">
+    <path d="M16 38 V16 H38"/><path d="M812 16 H834 V38"/>
+    <path d="M16 312 V334 H38"/><path d="M812 334 H834 V312"/>
+  </g>
+
+  <!-- header -->
+  <text x="34" y="40" class="h" fill="#F5F5F5">PLAYER <tspan fill="#CCFF00">HEMNAATH</tspan>  ·  CLASS <tspan fill="#CCFF00">AI / ML ENGINEER</tspan></text>
+  <g>
+    <circle cx="566" cy="35" r="5" fill="#CCFF00"><animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+    <text x="580" y="40" class="lbl" fill="#9aa0a6">ONLINE · CO-OP JAN '27</text>
+  </g>
+  <line x1="34" y1="54" x2="816" y2="54" stroke="#CCFF00" stroke-opacity="0.12"/>
+
+  <!-- ===== left: skill loadout ===== -->
+  <text x="34" y="82" class="cap" fill="#CCFF00">SKILL LOADOUT</text>
+
+  <!-- rows: label, track, animated fill, value -->
+  <g>
+    <!-- PYTHON 92 -->
+    <text x="34" y="118" class="lbl" fill="#cfd3d6">PYTHON</text>
+    <rect x="180" y="107" width="210" height="12" rx="6" fill="#141a06" stroke="#CCFF00" stroke-opacity="0.15"/>
+    <rect x="180" y="107" width="0" height="12" rx="6" fill="url(#kiwi2)"><animate attributeName="width" values="0;193" dur="1.1s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
+    <text x="398" y="118" class="val" fill="#CCFF00">92</text>
+
+    <!-- LLM & AGENTS 88 -->
+    <text x="34" y="150" class="lbl" fill="#cfd3d6">LLM &amp; AGENTS</text>
+    <rect x="180" y="139" width="210" height="12" rx="6" fill="#141a06" stroke="#CCFF00" stroke-opacity="0.15"/>
+    <rect x="180" y="139" width="0" height="12" rx="6" fill="url(#kiwi2)"><animate attributeName="width" values="0;185" dur="1.1s" begin="0.35s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
+    <text x="398" y="150" class="val" fill="#CCFF00">88</text>
+
+    <!-- BACKEND / APIs 82 -->
+    <text x="34" y="182" class="lbl" fill="#cfd3d6">BACKEND · APIs</text>
+    <rect x="180" y="171" width="210" height="12" rx="6" fill="#141a06" stroke="#CCFF00" stroke-opacity="0.15"/>
+    <rect x="180" y="171" width="0" height="12" rx="6" fill="url(#kiwi2)"><animate attributeName="width" values="0;172" dur="1.1s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
+    <text x="398" y="182" class="val" fill="#CCFF00">82</text>
+
+    <!-- INFRA / DEVOPS 72 -->
+    <text x="34" y="214" class="lbl" fill="#cfd3d6">INFRA · DEVOPS</text>
+    <rect x="180" y="203" width="210" height="12" rx="6" fill="#141a06" stroke="#CCFF00" stroke-opacity="0.15"/>
+    <rect x="180" y="203" width="0" height="12" rx="6" fill="url(#kiwi2)"><animate attributeName="width" values="0;151" dur="1.1s" begin="0.65s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
+    <text x="398" y="214" class="val" fill="#CCFF00">72</text>
+  </g>
+
+  <!-- divider -->
+  <line x1="450" y1="66" x2="450" y2="248" stroke="#CCFF00" stroke-opacity="0.12"/>
+
+  <!-- ===== right: season stats ===== -->
+  <text x="484" y="82" class="cap" fill="#CCFF00">SEASON · 2026</text>
+
+  <g fill="#F5F5F5">
+    <!-- 337 contributions -->
+    <g transform="translate(0,10)" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 10;0 0" dur="0.5s" begin="0.4s" fill="freeze"/>
+      <text x="484" y="132" class="big" fill="#CCFF00">337</text>
+      <text x="484" y="150" class="cap" fill="#9aa0a6">CONTRIBUTIONS</text>
+    </g>
+    <!-- 207 commits -->
+    <g transform="translate(0,10)" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.6s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 10;0 0" dur="0.5s" begin="0.6s" fill="freeze"/>
+      <text x="660" y="132" class="big" fill="#F5F5F5">207</text>
+      <text x="660" y="150" class="cap" fill="#9aa0a6">COMMITS</text>
+    </g>
+    <!-- 9 repos -->
+    <g transform="translate(0,10)" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 10;0 0" dur="0.5s" begin="0.8s" fill="freeze"/>
+      <text x="484" y="212" class="big" fill="#F5F5F5">9</text>
+      <text x="484" y="230" class="cap" fill="#9aa0a6">PUBLIC REPOS</text>
+    </g>
+    <!-- 4 shipped -->
+    <g transform="translate(0,10)" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.0s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 10;0 0" dur="0.5s" begin="1.0s" fill="freeze"/>
+      <text x="660" y="212" class="big" fill="#CCFF00">4</text>
+      <text x="660" y="230" class="cap" fill="#9aa0a6">SHIPPED PROJECTS</text>
+    </g>
+  </g>
+
+  <!-- ===== achievements ===== -->
+  <line x1="34" y1="272" x2="816" y2="272" stroke="#CCFF00" stroke-opacity="0.12"/>
+  <text x="34" y="300" class="cap" fill="#9aa0a6">UNLOCKED</text>
+
+  <g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.2s" fill="freeze"/>
+      <rect x="140" y="286" width="120" height="24" rx="12" fill="none" stroke="#CCFF00" stroke-opacity="0.5"/>
+      <circle cx="158" cy="298" r="4" fill="#CCFF00"/>
+      <text x="170" y="302" class="pill" fill="#F5F5F5">PULL SHARK</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.4s" fill="freeze"/>
+      <rect x="272" y="286" width="118" height="24" rx="12" fill="none" stroke="#CCFF00" stroke-opacity="0.5"/>
+      <circle cx="290" cy="298" r="4" fill="#CCFF00"/>
+      <text x="302" y="302" class="pill" fill="#F5F5F5">QUICKDRAW</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.6s" fill="freeze"/>
+      <rect x="402" y="286" width="74" height="24" rx="12" fill="none" stroke="#CCFF00" stroke-opacity="0.5"/>
+      <circle cx="420" cy="298" r="4" fill="#CCFF00"/>
+      <text x="432" y="302" class="pill" fill="#F5F5F5">YOLO</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.8s" fill="freeze"/>
+      <rect x="488" y="286" width="328" height="24" rx="12" fill="#CCFF00" fill-opacity="0.08" stroke="#CCFF00" stroke-opacity="0.35"/>
+      <text x="504" y="302" class="pill" fill="#CCFF00">NEXT ↑ &#160;<tspan fill="#9aa0a6">PROD LLM PRODUCT · REAL USERS</tspan></text>
+    </g>
+  </g>
+</svg>

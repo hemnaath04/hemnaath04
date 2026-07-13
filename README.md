@@ -1,4 +1,9 @@
-# Hi, I'm Hemnaath 👋
+<!-- Hi, I'm Hemnaath — AI / ML Engineer -->
+<p align="center">
+  <a href="https://www.hemnaath.tech">
+    <img alt="Hemnaath — AI / ML Engineer · LLM & agentic systems" src="./assets/hero.svg" width="850" />
+  </a>
+</p>
 
 <p align="center">
   <a href="https://linkedin.com/in/hemnaath04">
@@ -53,7 +58,7 @@ Previously at **EPAM** as a Test Automation Engineer on the Fares client, where 
 ### 📊 Activity
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=hemnaath04&show_icons=true&hide=contribs&hide_border=true&cache_seconds=86400&bg_color=000000&title_color=CCFF00&text_color=F5F5F5&icon_color=CCFF00" alt="GitHub stats" />
+  <img src="./assets/stats.svg" width="850" alt="Player stats: skill loadout and 2026 season activity (337 contributions, 207 commits, 9 public repos, 4 shipped projects)" />
 </p>
 
 <p align="center">
