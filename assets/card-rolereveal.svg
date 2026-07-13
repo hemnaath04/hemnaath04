@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 160" width="440" height="160" fill="none" role="img" aria-label="RoleReveal - Scores any job posting against your resume: match score, verdict, and skill gaps.">
+  <defs><clipPath id="k1"><rect width="440" height="160" rx="10"/></clipPath><style>
+  .serif{font:400 22px Georgia,"Times New Roman",serif}
+  .sans{font:700 22px -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .mono{font:600 11px ui-monospace,"SF Mono",Menlo,Consolas,monospace;letter-spacing:.5px}
+.title{font:700 23px -apple-system,"Segoe UI",Roboto,Arial,sans-serif}.blurb{font:400 12.5px -apple-system,"Segoe UI",Roboto,Arial,sans-serif}</style></defs>
+  <g clip-path="url(#k1)">
+  <rect width="440" height="160" rx="10" fill="#0d1117"/>
+  <rect x="0.5" y="0.5" width="439" height="159" rx="10" fill="none" stroke="#30363d"/>
+  <rect x="0" y="0" width="440" height="2.5" fill="#3fb950" opacity="0.15"/>
+  <rect y="0" width="80" height="2.5" fill="#3fb950"><animate attributeName="x" values="-80;440" dur="3.9s" repeatCount="indefinite"/></rect>
+  <text x="22" y="30" class="mono" fill="#3fb950" style="letter-spacing:1.5px;font-weight:700">01 · SHIPPED · LIVE</text>
+  <text x="22" y="62" class="title" fill="#e6edf3">RoleReveal</text>
+  <text x="22" y="88" class="blurb" fill="#8b949e">Scores any job posting against</text><text x="22" y="105" class="blurb" fill="#8b949e">your resume: match score, verdict,</text><text x="22" y="122" class="blurb" fill="#8b949e">and skill gaps.</text>
+  <text x="22" y="140" class="mono" fill="#8b949e" style="font-size:10.5px;letter-spacing:1px">MV3 · KEY-HIDING LLM PROXY · PII-MASKED</text>
+  <g transform="translate(360,80)">
+    <circle r="30" fill="none" stroke="#21262d" stroke-width="7"/>
+    <circle r="30" fill="none" stroke="#3fb950" stroke-width="7" stroke-linecap="round" transform="rotate(-90)" stroke-dasharray="188.5">
+      <animate attributeName="stroke-dashoffset" values="188.5;24.5;24.5;188.5" keyTimes="0;0.4;0.8;1" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.3 0 0.2 1;0 0 1 1;0.3 0 0.2 1"/></circle>
+    <text x="0" y="2" text-anchor="middle" class="mono" fill="#e6edf3" style="font-size:16px;font-weight:700">87</text>
+    <text x="0" y="15" text-anchor="middle" class="mono" fill="#8b949e" style="font-size:8px">MATCH</text></g>
+  </g>
+</svg>

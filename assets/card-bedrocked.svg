@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 160" width="440" height="160" fill="none" role="img" aria-label="BedRocked - Ranks combined-sewer streets by dig-readiness to sequence a $1.29B program.">
+  <defs><clipPath id="k3"><rect width="440" height="160" rx="10"/></clipPath><style>
+  .serif{font:400 22px Georgia,"Times New Roman",serif}
+  .sans{font:700 22px -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .mono{font:600 11px ui-monospace,"SF Mono",Menlo,Consolas,monospace;letter-spacing:.5px}
+.title{font:700 23px -apple-system,"Segoe UI",Roboto,Arial,sans-serif}.blurb{font:400 12.5px -apple-system,"Segoe UI",Roboto,Arial,sans-serif}</style></defs>
+  <g clip-path="url(#k3)">
+  <rect width="440" height="160" rx="10" fill="#0d1117"/>
+  <rect x="0.5" y="0.5" width="439" height="159" rx="10" fill="none" stroke="#30363d"/>
+  <rect x="0" y="0" width="440" height="2.5" fill="#58a6ff" opacity="0.15"/>
+  <rect y="0" width="80" height="2.5" fill="#58a6ff"><animate attributeName="x" values="-80;440" dur="4.7s" repeatCount="indefinite"/></rect>
+  <text x="22" y="30" class="mono" fill="#58a6ff" style="letter-spacing:1.5px;font-weight:700">03 · LIVE DEMO</text>
+  <text x="22" y="62" class="title" fill="#e6edf3">BedRocked</text>
+  <text x="22" y="88" class="blurb" fill="#8b949e">Ranks combined-sewer streets by</text><text x="22" y="105" class="blurb" fill="#8b949e">dig-readiness to sequence a $1.29B</text><text x="22" y="122" class="blurb" fill="#8b949e">program.</text>
+  <text x="22" y="140" class="mono" fill="#8b949e" style="font-size:10.5px;letter-spacing:1px">CYVL SCAN · CITY GIS · INTERACTIVE MAP</text>
+  <g>
+    <g stroke="#30363d" stroke-width="1"><path d="M300 55 H420 M300 78 H420 M330 30 V110 M375 30 V110"/></g>
+    <polyline points="315,45 360,62 400,40 395,90 345,95" fill="none" stroke="#58a6ff" stroke-width="2" stroke-dasharray="180" stroke-dashoffset="180"><animate attributeName="stroke-dashoffset" values="180;0;0;180" keyTimes="0;0.5;0.8;1" dur="4s" repeatCount="indefinite"/></polyline>
+    <circle cx="315" cy="45" r="3.5" fill="#58a6ff"><animate attributeName="r" values="3.5;6;3.5" dur="2.2s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0.4;1" dur="2.2s" begin="0.0s" repeatCount="indefinite"/></circle><circle cx="360" cy="62" r="3.5" fill="#58a6ff"><animate attributeName="r" values="3.5;6;3.5" dur="2.2s" begin="0.35s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0.4;1" dur="2.2s" begin="0.35s" repeatCount="indefinite"/></circle><circle cx="400" cy="40" r="3.5" fill="#58a6ff"><animate attributeName="r" values="3.5;6;3.5" dur="2.2s" begin="0.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0.4;1" dur="2.2s" begin="0.7s" repeatCount="indefinite"/></circle><circle cx="345" cy="95" r="3.5" fill="#58a6ff"><animate attributeName="r" values="3.5;6;3.5" dur="2.2s" begin="1.0499999999999998s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0.4;1" dur="2.2s" begin="1.0499999999999998s" repeatCount="indefinite"/></circle><circle cx="395" cy="90" r="3.5" fill="#58a6ff"><animate attributeName="r" values="3.5;6;3.5" dur="2.2s" begin="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0.4;1" dur="2.2s" begin="1.4s" repeatCount="indefinite"/></circle></g>
+  </g>
+</svg>

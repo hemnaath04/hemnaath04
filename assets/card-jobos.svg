@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 160" width="440" height="160" fill="none" role="img" aria-label="Job-OS - Job-search platform: application tracker, resume tailoring, and discovery.">
+  <defs><clipPath id="k4"><rect width="440" height="160" rx="10"/></clipPath><style>
+  .serif{font:400 22px Georgia,"Times New Roman",serif}
+  .sans{font:700 22px -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .mono{font:600 11px ui-monospace,"SF Mono",Menlo,Consolas,monospace;letter-spacing:.5px}
+.title{font:700 23px -apple-system,"Segoe UI",Roboto,Arial,sans-serif}.blurb{font:400 12.5px -apple-system,"Segoe UI",Roboto,Arial,sans-serif}</style></defs>
+  <g clip-path="url(#k4)">
+  <rect width="440" height="160" rx="10" fill="#0d1117"/>
+  <rect x="0.5" y="0.5" width="439" height="159" rx="10" fill="none" stroke="#30363d"/>
+  <rect x="0" y="0" width="440" height="2.5" fill="#bc8cff" opacity="0.15"/>
+  <rect y="0" width="80" height="2.5" fill="#bc8cff"><animate attributeName="x" values="-80;440" dur="5.1s" repeatCount="indefinite"/></rect>
+  <text x="22" y="30" class="mono" fill="#bc8cff" style="letter-spacing:1.5px;font-weight:700">04 · LIVE DEMO</text>
+  <text x="22" y="62" class="title" fill="#e6edf3">Job-OS</text>
+  <text x="22" y="88" class="blurb" fill="#8b949e">Job-search platform: application</text><text x="22" y="105" class="blurb" fill="#8b949e">tracker, resume tailoring, and</text><text x="22" y="122" class="blurb" fill="#8b949e">discovery.</text>
+  <text x="22" y="140" class="mono" fill="#8b949e" style="font-size:10.5px;letter-spacing:1px">FASTAPI · LANGGRAPH · AGENTIC</text>
+  <g><rect x="305" y="40" width="34" height="60" rx="4" fill="none" stroke="#30363d"/><rect x="311" y="50" width="22" height="8" rx="2" fill="#21262d"/><rect x="311" y="66" width="22" height="8" rx="2" fill="#21262d"/><rect x="311" y="82" width="22" height="8" rx="2" fill="#21262d"/><rect x="350" y="40" width="34" height="60" rx="4" fill="none" stroke="#30363d"/><rect x="356" y="50" width="22" height="8" rx="2" fill="#21262d"/><rect x="356" y="66" width="22" height="8" rx="2" fill="#21262d"/><rect x="356" y="82" width="22" height="8" rx="2" fill="#21262d"/><rect x="395" y="40" width="34" height="60" rx="4" fill="none" stroke="#30363d"/><rect x="401" y="50" width="22" height="8" rx="2" fill="#21262d"/><rect x="401" y="66" width="22" height="8" rx="2" fill="#21262d"/><rect x="401" y="82" width="22" height="8" rx="2" fill="#21262d"/><rect x="311" y="50" width="22" height="8" rx="2" fill="#bc8cff">
+      <animate attributeName="x" values="311;311;356;356;401;401;311" keyTimes="0;0.2;0.35;0.55;0.7;0.9;1" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="50;50;66;66;82;82;50" keyTimes="0;0.2;0.35;0.55;0.7;0.9;1" dur="4.5s" repeatCount="indefinite"/></rect></g>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 190" width="850" height="190" fill="none" role="img" aria-label="Hemnaath - AI / ML Engineer">
+  <defs>
+    <clipPath id="card"><rect width="850" height="190" rx="12"/></clipPath>
+    <clipPath id="nm"><text x="34" y="100" class="serif">Hemnaath</text></clipPath>
+    <linearGradient id="sheen" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+  .serif{font:400 54px Georgia,"Times New Roman",serif}
+  .sans{font:600 15px -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .mono{font:600 14px ui-monospace,"SF Mono",Menlo,Consolas,monospace;letter-spacing:.5px}
+</style>
+  </defs>
+  <g clip-path="url(#card)">
+  <rect width="850" height="190" rx="12" fill="#0d1117"/>
+  <rect x="0.5" y="0.5" width="849" height="189" rx="12" fill="none" stroke="#30363d"/>
+  <g stroke="#21262d"><path d="M0 44 H850"/><path d="M270 0 V190 M480 0 V190 M690 0 V190"/></g>
+
+  <!-- top loading sweep (looping motion) -->
+  <rect x="0" y="0" width="850" height="2" fill="#e3b341" opacity="0.12"/>
+  <rect y="0" width="150" height="2" fill="#e3b341"><animate attributeName="x" values="-150;850" dur="4s" repeatCount="indefinite"/></rect>
+
+  <!-- kicker -->
+  <text x="34" y="32" class="mono" fill="#8b949e">@HEMNAATH04</text>
+  <text x="816" y="32" class="mono" fill="#8b949e" text-anchor="end">AI / ML ENGINEER</text>
+
+  <!-- name with sweeping sheen (looping) -->
+  <g clip-path="url(#nm)">
+    <rect x="30" y="54" width="430" height="62" fill="#c9d1d9"/>
+    <rect x="0" y="54" width="130" height="62" fill="url(#sheen)"><animate attributeName="x" values="-130;520" dur="4.5s" begin="1s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- amber rule -->
+  <path d="M34 120 H816" stroke="#e3b341" stroke-width="1.5" stroke-dasharray="782" stroke-dashoffset="782">
+    <animate attributeName="stroke-dashoffset" values="782;0" dur="1s" begin="0.3s" fill="freeze"/></path>
+
+  <!-- rotating tagline -->
+  <text x="34" y="150" class="mono" fill="#c9d1d9">AI / ML ENGINEER &#160;·&#160;</text>
+  <text x="222" y="150" class="mono" fill="#8b949e" opacity="0">LLM &amp; AGENTIC SYSTEMS
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.25;0.32;1" dur="9.6s" begin="0.0s" repeatCount="indefinite"/></text><text x="222" y="150" class="mono" fill="#8b949e" opacity="0">RAG / VECTOR RETRIEVAL
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.25;0.32;1" dur="9.6s" begin="2.4s" repeatCount="indefinite"/></text><text x="222" y="150" class="mono" fill="#8b949e" opacity="0">AUTONOMOUS AGENTS
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.25;0.32;1" dur="9.6s" begin="4.8s" repeatCount="indefinite"/></text><text x="222" y="150" class="mono" fill="#8b949e" opacity="0">PRODUCTION LLM PRODUCTS
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.25;0.32;1" dur="9.6s" begin="7.199999999999999s" repeatCount="indefinite"/></text>
+
+  <!-- status -->
+  <circle cx="40" cy="174" r="5" fill="#3fb950"><animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+  <text x="54" y="179" class="mono" fill="#8b949e">OPEN FOR CO-OP, JAN 2027 &#160;&#160;·&#160;&#160; BOSTON, MA &#160;&#160;·&#160;&#160; CS MS @ NORTHEASTERN</text>
+  </g>
+</svg>
