@@ -7,13 +7,13 @@
 
 <p align="center">
   <a href="https://linkedin.com/in/hemnaath04">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-1c1a15?style=flat-square&logo=linkedin&logoColor=f3ede1" />
   </a>
   <a href="https://www.hemnaath.tech">
-    <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-CCFF00?style=for-the-badge&logo=safari&logoColor=black" />
+    <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-8f2d24?style=flat-square&logo=safari&logoColor=f3ede1" />
   </a>
   <a href="mailto:balasubramani.h@northeastern.edu">
-    <img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img alt="Email" src="https://img.shields.io/badge/Email-1c1a15?style=flat-square&logo=gmail&logoColor=f3ede1" />
   </a>
 </p>
 
@@ -63,7 +63,7 @@ Previously at **EPAM** as a Test Automation Engineer on the Fares client, where 
 
 <p align="center">
   <a href="https://github.com/hemnaath04">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=hemnaath04&bg_color=000000&color=F5F5F5&line=CCFF00&point=CCFF00&area=true&area_color=CCFF00&hide_border=true" alt="Hemnaath's contribution activity" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=hemnaath04&bg_color=f3ede1&color=1c1a15&title_color=1c1a15&line=8f2d24&point=1c1a15&area=true&area_color=d8cfbd&hide_border=true" alt="Hemnaath's contribution activity" />
   </a>
 </p>
 

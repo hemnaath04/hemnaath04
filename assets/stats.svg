@@ -1,124 +1,95 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 350" width="850" height="350" fill="none" role="img" aria-label="Hemnaath — player stats: skills and 2026 season activity">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 350" width="850" height="350" fill="none" role="img" aria-label="Skill proficiency and 2026 GitHub activity: 337 contributions, 207 commits, 9 public repos, 4 shipped projects">
   <defs>
-    <linearGradient id="kiwi2" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#CCFF00"/><stop offset="1" stop-color="#FFFF00"/>
-    </linearGradient>
     <style>
-      .h    { font: 700 15px ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing:1.5px; }
-      .lbl  { font: 600 13px ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing:.5px; }
-      .val  { font: 700 13px ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
-      .big  { font: 800 40px ui-sans-serif, "Segoe UI", Roboto, Arial, sans-serif; }
-      .cap  { font: 600 11px ui-monospace, Menlo, Consolas, monospace; letter-spacing:1.5px; }
-      .pill { font: 700 11px ui-monospace, Menlo, Consolas, monospace; letter-spacing:1px; }
+      .fig  { font: 600 12px ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing:3px; }
+      .hd   { font: 600 11px ui-monospace, Menlo, Consolas, monospace; letter-spacing:2px; }
+      .lbl  { font: 500 13px ui-monospace, Menlo, Consolas, monospace; letter-spacing:.5px; }
+      .val  { font: 700 13px ui-monospace, Menlo, Consolas, monospace; }
+      .cap  { font: 600 11px ui-monospace, Menlo, Consolas, monospace; letter-spacing:2px; }
+      .num  { font: 400 40px Georgia, "Times New Roman", serif; }
+      .note { font: italic 400 14px Georgia, "Times New Roman", serif; }
     </style>
   </defs>
 
-  <!-- frame -->
-  <rect width="850" height="350" rx="14" fill="#050505"/>
-  <rect x="0.5" y="0.5" width="849" height="349" rx="14" fill="none" stroke="#CCFF00" stroke-opacity="0.18"/>
-  <g stroke="url(#kiwi2)" stroke-width="2" fill="none">
-    <path d="M16 38 V16 H38"/><path d="M812 16 H834 V38"/>
-    <path d="M16 312 V334 H38"/><path d="M812 334 H834 V312"/>
-  </g>
+  <!-- paper + double rule border -->
+  <rect width="850" height="350" fill="#f3ede1"/>
+  <rect x="10.5" y="10.5" width="829" height="329" fill="none" stroke="#1c1a15" stroke-width="1.5"/>
+  <rect x="15.5" y="15.5" width="819" height="319" fill="none" stroke="#1c1a15" stroke-width="0.6"/>
 
-  <!-- header -->
-  <text x="34" y="40" class="h" fill="#F5F5F5">PLAYER <tspan fill="#CCFF00">HEMNAATH</tspan>  ·  CLASS <tspan fill="#CCFF00">AI / ML ENGINEER</tspan></text>
-  <g>
-    <circle cx="566" cy="35" r="5" fill="#CCFF00"><animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
-    <text x="580" y="40" class="lbl" fill="#9aa0a6">ONLINE · CO-OP JAN '27</text>
-  </g>
-  <line x1="34" y1="54" x2="816" y2="54" stroke="#CCFF00" stroke-opacity="0.12"/>
+  <!-- figure caption -->
+  <text x="34" y="42" class="fig" fill="#1c1a15">FIG. 1 &#8212; SKILL PROFICIENCY &amp; 2026 ACTIVITY</text>
+  <text x="816" y="42" class="hd" fill="#6f6a5c" text-anchor="end">SOURCE: GITHUB API</text>
+  <path d="M34 54 H816" stroke="#1c1a15" stroke-width="1.2" stroke-dasharray="782" stroke-dashoffset="782">
+    <animate attributeName="stroke-dashoffset" values="782;0" dur="0.9s" begin="0.15s" fill="freeze"/>
+  </path>
 
-  <!-- ===== left: skill loadout ===== -->
-  <text x="34" y="82" class="cap" fill="#CCFF00">SKILL LOADOUT</text>
+  <!-- vertical divider -->
+  <line x1="452" y1="66" x2="452" y2="292" stroke="#cbc3b2" stroke-width="1"/>
 
-  <!-- rows: label, track, animated fill, value -->
-  <g>
-    <!-- PYTHON 92 -->
-    <text x="34" y="118" class="lbl" fill="#cfd3d6">PYTHON</text>
-    <rect x="180" y="107" width="210" height="12" rx="6" fill="#141a06" stroke="#CCFF00" stroke-opacity="0.15"/>
-    <rect x="180" y="107" width="0" height="12" rx="6" fill="url(#kiwi2)"><animate attributeName="width" values="0;193" dur="1.1s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
-    <text x="398" y="118" class="val" fill="#CCFF00">92</text>
+  <!-- ===== left: skills table ===== -->
+  <text x="34" y="82" class="hd" fill="#6f6a5c">SKILL</text>
+  <text x="414" y="82" class="hd" fill="#6f6a5c" text-anchor="end">LEVEL</text>
+  <line x1="34" y1="90" x2="414" y2="90" stroke="#cbc3b2" stroke-width="0.8"/>
 
-    <!-- LLM & AGENTS 88 -->
-    <text x="34" y="150" class="lbl" fill="#cfd3d6">LLM &amp; AGENTS</text>
-    <rect x="180" y="139" width="210" height="12" rx="6" fill="#141a06" stroke="#CCFF00" stroke-opacity="0.15"/>
-    <rect x="180" y="139" width="0" height="12" rx="6" fill="url(#kiwi2)"><animate attributeName="width" values="0;185" dur="1.1s" begin="0.35s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
-    <text x="398" y="150" class="val" fill="#CCFF00">88</text>
+  <!-- Python 92 -->
+  <text x="34" y="122" class="lbl" fill="#1c1a15">PYTHON</text>
+  <rect x="180" y="114" width="234" height="6" fill="#e3dccb"/>
+  <rect x="180" y="114" width="0" height="6" fill="#1c1a15"><animate attributeName="width" values="0;215" dur="1s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.2 0.75 0.2 1" keyTimes="0;1"/></rect>
+  <text x="414" y="122" class="val" fill="#1c1a15" text-anchor="end">92</text>
 
-    <!-- BACKEND / APIs 82 -->
-    <text x="34" y="182" class="lbl" fill="#cfd3d6">BACKEND · APIs</text>
-    <rect x="180" y="171" width="210" height="12" rx="6" fill="#141a06" stroke="#CCFF00" stroke-opacity="0.15"/>
-    <rect x="180" y="171" width="0" height="12" rx="6" fill="url(#kiwi2)"><animate attributeName="width" values="0;172" dur="1.1s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
-    <text x="398" y="182" class="val" fill="#CCFF00">82</text>
+  <!-- LLM & Agents 88 -->
+  <text x="34" y="168" class="lbl" fill="#1c1a15">LLM &amp; AGENTS</text>
+  <rect x="180" y="160" width="234" height="6" fill="#e3dccb"/>
+  <rect x="180" y="160" width="0" height="6" fill="#1c1a15"><animate attributeName="width" values="0;206" dur="1s" begin="0.42s" fill="freeze" calcMode="spline" keySplines="0.2 0.75 0.2 1" keyTimes="0;1"/></rect>
+  <text x="414" y="168" class="val" fill="#1c1a15" text-anchor="end">88</text>
 
-    <!-- INFRA / DEVOPS 72 -->
-    <text x="34" y="214" class="lbl" fill="#cfd3d6">INFRA · DEVOPS</text>
-    <rect x="180" y="203" width="210" height="12" rx="6" fill="#141a06" stroke="#CCFF00" stroke-opacity="0.15"/>
-    <rect x="180" y="203" width="0" height="12" rx="6" fill="url(#kiwi2)"><animate attributeName="width" values="0;151" dur="1.1s" begin="0.65s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
-    <text x="398" y="214" class="val" fill="#CCFF00">72</text>
-  </g>
+  <!-- Backend / APIs 82 -->
+  <text x="34" y="214" class="lbl" fill="#1c1a15">BACKEND &#183; APIs</text>
+  <rect x="180" y="206" width="234" height="6" fill="#e3dccb"/>
+  <rect x="180" y="206" width="0" height="6" fill="#1c1a15"><animate attributeName="width" values="0;192" dur="1s" begin="0.54s" fill="freeze" calcMode="spline" keySplines="0.2 0.75 0.2 1" keyTimes="0;1"/></rect>
+  <text x="414" y="214" class="val" fill="#1c1a15" text-anchor="end">82</text>
 
-  <!-- divider -->
-  <line x1="450" y1="66" x2="450" y2="248" stroke="#CCFF00" stroke-opacity="0.12"/>
+  <!-- Infra / DevOps 72 -->
+  <text x="34" y="260" class="lbl" fill="#1c1a15">INFRA &#183; DEVOPS</text>
+  <rect x="180" y="252" width="234" height="6" fill="#e3dccb"/>
+  <rect x="180" y="252" width="0" height="6" fill="#1c1a15"><animate attributeName="width" values="0;168" dur="1s" begin="0.66s" fill="freeze" calcMode="spline" keySplines="0.2 0.75 0.2 1" keyTimes="0;1"/></rect>
+  <text x="414" y="260" class="val" fill="#1c1a15" text-anchor="end">72</text>
 
-  <!-- ===== right: season stats ===== -->
-  <text x="484" y="82" class="cap" fill="#CCFF00">SEASON · 2026</text>
+  <!-- ===== right: season 2026 ===== -->
+  <text x="484" y="82" class="hd" fill="#6f6a5c">SEASON &#183; 2026</text>
+  <rect x="484" y="88" width="42" height="2.5" fill="#8f2d24"/>
 
-  <g fill="#F5F5F5">
-    <!-- 337 contributions -->
-    <g transform="translate(0,10)" opacity="0">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.4s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="0 10;0 0" dur="0.5s" begin="0.4s" fill="freeze"/>
-      <text x="484" y="132" class="big" fill="#CCFF00">337</text>
-      <text x="484" y="150" class="cap" fill="#9aa0a6">CONTRIBUTIONS</text>
+  <g fill="#1c1a15">
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.5s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 8;0 0" dur="0.5s" begin="0.5s" fill="freeze"/>
+      <text x="484" y="140" class="num">337</text>
+      <text x="484" y="160" class="cap" fill="#6f6a5c">CONTRIBUTIONS</text>
     </g>
-    <!-- 207 commits -->
-    <g transform="translate(0,10)" opacity="0">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.6s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="0 10;0 0" dur="0.5s" begin="0.6s" fill="freeze"/>
-      <text x="660" y="132" class="big" fill="#F5F5F5">207</text>
-      <text x="660" y="150" class="cap" fill="#9aa0a6">COMMITS</text>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.68s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 8;0 0" dur="0.5s" begin="0.68s" fill="freeze"/>
+      <text x="662" y="140" class="num">207</text>
+      <text x="662" y="160" class="cap" fill="#6f6a5c">COMMITS</text>
     </g>
-    <!-- 9 repos -->
-    <g transform="translate(0,10)" opacity="0">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="0 10;0 0" dur="0.5s" begin="0.8s" fill="freeze"/>
-      <text x="484" y="212" class="big" fill="#F5F5F5">9</text>
-      <text x="484" y="230" class="cap" fill="#9aa0a6">PUBLIC REPOS</text>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.86s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 8;0 0" dur="0.5s" begin="0.86s" fill="freeze"/>
+      <text x="484" y="222" class="num">9</text>
+      <text x="484" y="242" class="cap" fill="#6f6a5c">PUBLIC REPOS</text>
     </g>
-    <!-- 4 shipped -->
-    <g transform="translate(0,10)" opacity="0">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.0s" fill="freeze"/>
-      <animateTransform attributeName="transform" type="translate" values="0 10;0 0" dur="0.5s" begin="1.0s" fill="freeze"/>
-      <text x="660" y="212" class="big" fill="#CCFF00">4</text>
-      <text x="660" y="230" class="cap" fill="#9aa0a6">SHIPPED PROJECTS</text>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.04s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 8;0 0" dur="0.5s" begin="1.04s" fill="freeze"/>
+      <text x="662" y="222" class="num" fill="#8f2d24">4</text>
+      <text x="662" y="242" class="cap" fill="#6f6a5c">SHIPPED PROJECTS</text>
     </g>
   </g>
 
-  <!-- ===== achievements ===== -->
-  <line x1="34" y1="272" x2="816" y2="272" stroke="#CCFF00" stroke-opacity="0.12"/>
-  <text x="34" y="300" class="cap" fill="#9aa0a6">UNLOCKED</text>
-
-  <g>
-    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.2s" fill="freeze"/>
-      <rect x="140" y="286" width="120" height="24" rx="12" fill="none" stroke="#CCFF00" stroke-opacity="0.5"/>
-      <circle cx="158" cy="298" r="4" fill="#CCFF00"/>
-      <text x="170" y="302" class="pill" fill="#F5F5F5">PULL SHARK</text>
-    </g>
-    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.4s" fill="freeze"/>
-      <rect x="272" y="286" width="118" height="24" rx="12" fill="none" stroke="#CCFF00" stroke-opacity="0.5"/>
-      <circle cx="290" cy="298" r="4" fill="#CCFF00"/>
-      <text x="302" y="302" class="pill" fill="#F5F5F5">QUICKDRAW</text>
-    </g>
-    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.6s" fill="freeze"/>
-      <rect x="402" y="286" width="74" height="24" rx="12" fill="none" stroke="#CCFF00" stroke-opacity="0.5"/>
-      <circle cx="420" cy="298" r="4" fill="#CCFF00"/>
-      <text x="432" y="302" class="pill" fill="#F5F5F5">YOLO</text>
-    </g>
-    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.8s" fill="freeze"/>
-      <rect x="488" y="286" width="328" height="24" rx="12" fill="#CCFF00" fill-opacity="0.08" stroke="#CCFF00" stroke-opacity="0.35"/>
-      <text x="504" y="302" class="pill" fill="#CCFF00">NEXT ↑ &#160;<tspan fill="#9aa0a6">PROD LLM PRODUCT · REAL USERS</tspan></text>
-    </g>
+  <!-- ===== footer ===== -->
+  <path d="M34 302 H816" stroke="#1c1a15" stroke-width="1.2" stroke-dasharray="782" stroke-dashoffset="782">
+    <animate attributeName="stroke-dashoffset" values="782;0" dur="1s" begin="1.1s" fill="freeze"/>
+  </path>
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.4s" fill="freeze"/>
+    <text x="34" y="326" class="hd" fill="#6f6a5c">AWARDS</text>
+    <rect x="112" y="318" width="6" height="6" fill="#8f2d24"/>
+    <text x="126" y="326" class="lbl" fill="#1c1a15">Pull Shark &#160;·&#160; Quickdraw &#160;·&#160; YOLO</text>
+    <text x="816" y="326" class="note" fill="#3a372f" text-anchor="end">Next &#8212; a production LLM product, with real users.</text>
   </g>
 </svg>
