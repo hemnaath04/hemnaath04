@@ -34,7 +34,8 @@ AI engineer building LLM-driven, agentic systems. I ship autonomous applications
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/hemnaath04/claimfarm"><img src="./assets/card-claimfarm.svg" width="100%" alt="ClaimFarm — turns a farmer's WhatsApp crop photo into a filed insurance claim" /></a>
-      <p align="center"><a href="https://github.com/hemnaath04/claimfarm">Repo ↗</a></p>
+      <p align="center"><a href="https://claimfarm-dashboard.vercel.app">Live ↗</a> &nbsp;·&nbsp; <a href="https://github.com/hemnaath04/claimfarm">Repo ↗</a></p>
+      <p align="center">
     </td>
   </tr>
   <tr>
