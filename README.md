@@ -45,7 +45,8 @@ AI engineer building LLM-driven, agentic systems. I ship autonomous applications
     </td>
     <td width="50%" valign="top">
       <a href="https://job-app-manager-five.vercel.app"><img src="./assets/card-jobos.svg" width="100%" alt="Job-OS — job-search platform: tracker, resume tailoring, discovery" /></a>
-      <p align="center"><a href="https://job-app-manager-five.vercel.app">Live ↗</a></p>
+      <p align="center"><a href="https://job-app-manager-five.vercel.app">Live ↗</a> &nbsp;·&nbsp; <a href="https://github.com/hemnaath04/job-os">Repo ↗</a></p>
+    </td>
     </td>
   </tr>
 </table>
