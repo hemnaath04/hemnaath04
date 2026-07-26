@@ -44,8 +44,8 @@ AI engineer building LLM-driven, agentic systems. I ship autonomous applications
       <p align="center"><a href="https://sewershed-bedrocked.vercel.app">Live ↗</a> &nbsp;·&nbsp; <a href="https://github.com/hemnaath04/bedrocked">Repo ↗</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://job-app-manager-five.vercel.app"><img src="./assets/card-jobos.svg" width="100%" alt="Job-OS — job-search platform: tracker, resume tailoring, discovery" /></a>
-      <p align="center"><a href="https://job-app-manager-five.vercel.app">Live ↗</a> &nbsp;·&nbsp; <a href="https://github.com/hemnaath04/job-os">Repo ↗</a></p>
+      <a href="https://jobs.hemnaath.tech"><img src="./assets/card-jobos.svg" width="100%" alt="Job-OS — instant Appwrite pipeline, LangGraph resume tailoring, and discovery" /></a>
+      <p align="center"><a href="https://jobs.hemnaath.tech">Live ↗</a> &nbsp;·&nbsp; <a href="https://github.com/hemnaath04/job-os">Repo ↗</a></p>
     </td>
     </td>
   </tr>
@@ -57,8 +57,8 @@ AI engineer building LLM-driven, agentic systems. I ship autonomous applications
 
 **Languages** Python · Swift · Java · Bash
 **AI / ML** LLM orchestration · agentic systems · RAG / vector retrieval · knowledge distillation · prompt engineering · embeddings · PyTorch · scikit-learn
-**Backend** FastAPI · async SQLAlchemy · PostgreSQL (+ pgvector) · MongoDB · REST APIs · streaming pipelines
-**Infra** Docker · Render · Vercel · Cloudflare R2 · Alembic
+**Backend** FastAPI · LangGraph · Appwrite · async SQLAlchemy · PostgreSQL (+ pgvector) · MongoDB · REST APIs · streaming pipelines
+**Infra** Docker · Render · Vercel · Appwrite Cloud · Cloudflare R2 · Alembic
 
 ---
 
