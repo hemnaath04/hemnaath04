@@ -32,25 +32,25 @@ The testing habit came with me. Most LLM products ask a model to be honest in a 
 
 <img src="./assets/shot-jobos.png" width="700" alt="job.os landing page: Track every application. Tailor every resume. Never lie on your CV." />
 
-**job-os**
+#### 💼 job-os
 *"Track every application. Tailor every resume. Never lie on your CV."* Every claim the resume agent writes has to trace back to something already verified, enforced in code rather than a prompt asking the model to behave.
 [Live ↗](https://jobs.hemnaath.tech) &nbsp;·&nbsp; [Repo ↗](https://github.com/hemnaath04/job-os)
 
 <img src="./assets/shot-rolereveal.png" width="700" alt="RoleReveal match score panel on a live job posting: 88, strong fit" />
 
-**RoleReveal**
+#### 🔍 RoleReveal
 Chrome extension that scores any job posting against your resume inline, masking your personal details before anything reaches the model.
 [Live ↗](https://chromewebstore.google.com/detail/oplfnlcnahoijcflpjjncplkoakdpobb) &nbsp;·&nbsp; [Repo ↗](https://github.com/hemnaath04/rolereveal)
 
 <img src="./assets/shot-claimfarm.png" width="700" alt="ClaimFarm landing page: insurance claims for smallholder farmers, filed in 60 seconds" />
 
-**ClaimFarm**
+#### 🌾 ClaimFarm
 Turns a smallholder farmer's WhatsApp crop photo into a filed insurance claim, cross-checking weather data and photo forensics before a human adjuster signs off.
 [Live ↗](https://claimfarm-dashboard.vercel.app) &nbsp;·&nbsp; [Repo ↗](https://github.com/hemnaath04/claimfarm)
 
 <img src="./assets/shot-bedrocked.png" width="700" alt="BedRocked dashboard scoring Somerville's combined-sewer segments for dig-readiness" />
 
-**BedRocked**
+#### 🗺️ BedRocked
 Scores Somerville's 2,404 combined-sewer segments for dig-readiness by joining city GIS data to Cyvl's street-scan data, built at a 2026 hackathon.
 [Live ↗](https://sewershed-bedrocked.vercel.app) &nbsp;·&nbsp; [Repo ↗](https://github.com/hemnaath04/bedrocked)
 
