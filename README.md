@@ -1,9 +1,5 @@
 <!-- Hi, I'm Hemnaath, AI / ML Engineer -->
-<p align="center">
-  <a href="https://www.hemnaath.tech">
-    <img alt="Hemnaath, AI / ML Engineer · LLM & agentic systems" src="./assets/banner.svg" width="850" />
-  </a>
-</p>
+# Hemnaath
 
 <p align="center">
   <a href="https://linkedin.com/in/hemnaath04">
@@ -17,7 +13,7 @@
   </a>
 </p>
 
-AI engineer building LLM-driven, agentic systems. I ship autonomous applications, dataset-scoped retrieval, and evidence-grounded LLM products in Python, and I run them on my own infrastructure. Right now that is [job.os](https://jobs.hemnaath.tech), a job-search platform whose resume agent can only write what a verified fact already supports.
+I build LLM-driven, agentic systems, mostly in Python, and I run what I build on my own infrastructure instead of just demoing it. Right now that's [job.os](https://jobs.hemnaath.tech): a job-search platform whose resume agent can only write what a verified fact already backs up.
 
 Boston, MA · CS MS @ Northeastern Khoury (Jan 2026 to May 2028)
 **Open for co-op: January 2027**
@@ -34,17 +30,25 @@ The testing habit came with me. Most LLM products ask a model to be honest in a 
 
 ### Selected work
 
+<img src="./assets/shot-jobos.png" width="700" alt="job.os landing page: Track every application. Tailor every resume. Never lie on your CV." />
+
 **job-os**
-Every claim the resume agent writes has to trace back to something already verified, enforced in code rather than a prompt asking the model to behave.
+*"Track every application. Tailor every resume. Never lie on your CV."* Every claim the resume agent writes has to trace back to something already verified, enforced in code rather than a prompt asking the model to behave.
 [Live ↗](https://jobs.hemnaath.tech) &nbsp;·&nbsp; [Repo ↗](https://github.com/hemnaath04/job-os)
+
+<img src="./assets/shot-rolereveal.png" width="700" alt="RoleReveal match score panel on a live job posting: 88, strong fit" />
 
 **RoleReveal**
 Chrome extension that scores any job posting against your resume inline, masking your personal details before anything reaches the model.
 [Live ↗](https://chromewebstore.google.com/detail/oplfnlcnahoijcflpjjncplkoakdpobb) &nbsp;·&nbsp; [Repo ↗](https://github.com/hemnaath04/rolereveal)
 
+<img src="./assets/shot-claimfarm.png" width="700" alt="ClaimFarm landing page: insurance claims for smallholder farmers, filed in 60 seconds" />
+
 **ClaimFarm**
 Turns a smallholder farmer's WhatsApp crop photo into a filed insurance claim, cross-checking weather data and photo forensics before a human adjuster signs off.
 [Live ↗](https://claimfarm-dashboard.vercel.app) &nbsp;·&nbsp; [Repo ↗](https://github.com/hemnaath04/claimfarm)
+
+<img src="./assets/shot-bedrocked.png" width="700" alt="BedRocked dashboard scoring Somerville's combined-sewer segments for dig-readiness" />
 
 **BedRocked**
 Scores Somerville's 2,404 combined-sewer segments for dig-readiness by joining city GIS data to Cyvl's street-scan data, built at a 2026 hackathon.
