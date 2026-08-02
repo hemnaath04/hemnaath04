@@ -25,7 +25,7 @@ That's most of what I build now: agents that do real work, plus the scaffolding 
 
 ## What I've built
 
-### 💼 job-os
+##### 💼 job-os
 **A job tracker whose resume agent isn't allowed to lie about you.**
 
 You track applications, it tailors your resume per job. The catch is that every claim the agent writes has to trace back to something you already verified. After generation, unverified numbers get stripped, entities that never appeared in your source facts get rejected outright, and a resume version can't be finalized until it clears a deterministic score with zero blocking issues.
@@ -39,7 +39,7 @@ You track applications, it tailors your resume per job. The catch is that every 
 
 ---
 
-### 🔍 RoleReveal
+##### 🔍 RoleReveal
 **Chrome extension that scores any job posting against your resume, inline.**
 
 Open a posting, see a fit score and a breakdown without leaving the page. Your name, email, phone and address get masked out before anything is sent to the model, so the scoring happens on skills and experience only.
@@ -51,7 +51,7 @@ Open a posting, see a fit score and a breakdown without leaving the page. Your n
 
 ---
 
-### 🌾 ClaimFarm
+##### 🌾 ClaimFarm
 **A smallholder farmer sends a photo of a damaged crop on WhatsApp. It comes out the other end as a filed insurance claim.**
 
 The pipeline cross-checks the claim against weather data for that location and date, runs photo forensics to catch reused or edited images, and hands a human adjuster a scored case instead of a raw photo.
@@ -63,7 +63,7 @@ The pipeline cross-checks the claim against weather data for that location and d
 
 ---
 
-### 🗺️ BedRocked
+#####🗺️ BedRocked
 **Which of Somerville's 2,404 combined-sewer segments should the city dig up first?**
 
 Joins municipal GIS sewer data to street-scan road-condition data, then scores every segment for dig-readiness so the city can sequence repaving and sewer work together instead of tearing up the same street twice. Built at a 2026 hackathon.
