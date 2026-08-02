@@ -19,8 +19,8 @@
 
 AI engineer building LLM-driven, agentic systems. I ship autonomous applications, dataset-scoped retrieval, and evidence-grounded LLM products in Python, and I run them on my own infrastructure. Right now that is [job.os](https://jobs.hemnaath.tech), a job-search platform whose resume agent can only write what a verified fact already supports.
 
-📍 Boston, MA · CS MS @ Northeastern Khoury (Jan 2026 to May 2028)
-🛠️ **Open for co-op: January 2027**
+Boston, MA · CS MS @ Northeastern Khoury (Jan 2026 to May 2028)
+**Open for co-op: January 2027**
 
 ---
 
