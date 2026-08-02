@@ -24,60 +24,53 @@ AI engineer building LLM-driven, agentic systems. I ship autonomous applications
 
 ---
 
-### Selected work
+### Why AI
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/hemnaath04/rolereveal"><img src="./assets/card-rolereveal.svg" width="100%" alt="RoleReveal, scores any job posting against your resume" /></a>
-      <p align="center"><a href="https://rolereveal.app">Live ↗</a> &nbsp;·&nbsp; <a href="https://github.com/hemnaath04/rolereveal">Repo ↗</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/hemnaath04/claimfarm"><img src="./assets/card-claimfarm.svg" width="100%" alt="ClaimFarm, turns a farmer's WhatsApp crop photo into a filed insurance claim" /></a>
-      <p align="center"><a href="https://claimfarm-dashboard.vercel.app">Live ↗</a> &nbsp;·&nbsp; <a href="https://github.com/hemnaath04/claimfarm">Repo ↗</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://sewershed-bedrocked.vercel.app"><img src="./assets/card-bedrocked.svg" width="100%" alt="BedRocked, ranks combined-sewer streets by dig-readiness" /></a>
-      <p align="center"><a href="https://sewershed-bedrocked.vercel.app">Live ↗</a> &nbsp;·&nbsp; <a href="https://github.com/hemnaath04/bedrocked">Repo ↗</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://jobs.hemnaath.tech"><img src="./assets/card-jobos.svg" width="100%" alt="job.os, a job-search platform that tailors a resume to one posting from verified facts only and renders it as real LaTeX" /></a>
-      <p align="center"><a href="https://jobs.hemnaath.tech">Live ↗</a> &nbsp;·&nbsp; <a href="https://github.com/hemnaath04/job-os">Repo ↗</a></p>
-    </td>
-  </tr>
-</table>
+I came to AI through testing. My last stretch at EPAM was spent building agents that generated test cases straight from functional requirements documents. It was the first system I'd worked on that wrote artifacts instead of checking mine, and the reason I moved into AI/ML full time.
+
+The testing habit came with me. Most LLM products ask a model to be honest in a prompt and hope. job-os enforces it in code: unverified numbers are stripped after generation, new entities are rejected outright, and a resume version can't be finalized until it clears a deterministic score with no blocking issues. That's a test suite pointed at a model, and it's the thing I actually care about building.
 
 ---
 
-### 🧠 What I work with
+### Selected work
 
-**Languages** Python · Swift · Java · Bash
-**AI / ML** LLM orchestration · agentic systems · RAG / vector retrieval · knowledge distillation · prompt engineering · embeddings · PyTorch · scikit-learn
-**Backend** FastAPI · LangGraph · Appwrite · async SQLAlchemy · PostgreSQL (+ pgvector) · MongoDB · REST APIs · streaming pipelines
+**job-os**
+Every claim the resume agent writes has to trace back to something already verified, enforced in code rather than a prompt asking the model to behave.
+[Live ↗](https://jobs.hemnaath.tech) &nbsp;·&nbsp; [Repo ↗](https://github.com/hemnaath04/job-os)
+
+**RoleReveal**
+Chrome extension that scores any job posting against your resume inline, masking your personal details before anything reaches the model.
+[Live ↗](https://chromewebstore.google.com/detail/oplfnlcnahoijcflpjjncplkoakdpobb) &nbsp;·&nbsp; [Repo ↗](https://github.com/hemnaath04/rolereveal)
+
+**ClaimFarm**
+Turns a smallholder farmer's WhatsApp crop photo into a filed insurance claim, cross-checking weather data and photo forensics before a human adjuster signs off.
+[Live ↗](https://claimfarm-dashboard.vercel.app) &nbsp;·&nbsp; [Repo ↗](https://github.com/hemnaath04/claimfarm)
+
+**BedRocked**
+Scores Somerville's 2,404 combined-sewer segments for dig-readiness by joining city GIS data to Cyvl's street-scan data, built at a 2026 hackathon.
+[Live ↗](https://sewershed-bedrocked.vercel.app) &nbsp;·&nbsp; [Repo ↗](https://github.com/hemnaath04/bedrocked)
+
+---
+
+### What I work with
+
+**Languages** Python · Java · Bash
+**AI / ML** LLM orchestration · agentic systems · RAG / vector retrieval · knowledge distillation · prompt engineering · embeddings
+**Backend** FastAPI · LangGraph · Appwrite · async SQLAlchemy · PostgreSQL (+ pgvector) · MongoDB · REST APIs
 **Infra** Docker · Render · Vercel · Appwrite Cloud · Cloudflare R2 · Alembic · LaTeX / Tectonic
 
 ---
 
-### 🧪 Background
+### Background
 
 Previously at **EPAM** as a Test Automation Engineer on the Fares client, where I built CI-grade automation suites end to end. Now focused on applied AI / ML and LLM systems.
 
 ---
 
-### 📊 Activity
-
-<p align="center">
-  <img src="./assets/stats.svg" width="850" alt="Player stats: skill loadout and 2026 season activity (337 contributions, 207 commits, 9 public repos, 4 shipped projects)" />
-</p>
+### Activity
 
 <p align="center">
   <a href="https://github.com/hemnaath04">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=hemnaath04&bg_color=0d1117&color=e6edf3&title_color=e6edf3&line=e3b341&point=e6edf3&area=true&area_color=161b22&hide_border=true" alt="Hemnaath's contribution activity" />
   </a>
 </p>
-
----
-
-<sub><i>From <a href="https://github.com/hemnaath04/rolereveal">RoleReveal</a>: "Track every application. Score every job. Never lie on your CV."</i></sub>
