@@ -26,11 +26,13 @@ That's most of what I build now: agents that do real work, plus the scaffolding 
 
 > **A job tracker whose resume agent isn't allowed to lie about you.**
 
-You track applications, it tailors your resume per job. The catch is that every claim the agent writes has to trace back to something you already verified. After generation, unverified numbers get stripped, entities that never appeared in your source facts get rejected outright, and a resume version can't be finalized until it clears a deterministic score with zero blocking issues.
+It finds the jobs, ranks them, then tailors your resume for the one you pick. Discovery reads 85 company job boards plus feeds that carry every employer on them, and each posting gets scored against skills you've actually verified, so the list leads with what fits instead of what's newest. It also reads each posting for the things a fit score won't tell you: sponsorship, citizenship, clearance and export-control requirements, which is the difference between a role you might get and one you can't.
 
-**The part I'd talk about in an interview** — prompting the model to stay grounded didn't work reliably, so grounding became a validation pass the output has to survive. Same idea as a test suite gating a deploy, just pointed at a model.
+The tailoring is the part with teeth. Every claim the agent writes has to trace back to something you already verified. After generation, unverified numbers get stripped, entities that never appeared in your source facts get rejected outright, and a version can't be finalized until it clears a deterministic score with zero blocking issues.
 
-`Python` `FastAPI` `LangGraph` `PostgreSQL + pgvector` `Docker`
+**The part I'd talk about in an interview** — prompting the model to stay grounded didn't work reliably, so grounding became a validation pass the output has to survive. Same idea as a test suite gating a deploy, just pointed at a model. The scoring taught me the opposite lesson: my first version divided matched skills by the skills a posting named, which quietly gave a perfect score to any posting vague enough to name almost nothing. A mechanical engineering internship ranked above every AI role on the page. Cheap metrics fail in the direction that flatters them.
+
+`Python` `FastAPI` `LangGraph` `PostgreSQL + pgvector` `Typst / LaTeX` `Docker`
 
 [![Live](https://img.shields.io/badge/▶%20Try%20it%20live-e3b341?style=for-the-badge&logoColor=0d1117)](https://jobs.hemnaath.tech) &nbsp;[![Source](https://img.shields.io/badge/Source-30363d?style=for-the-badge&logo=github&logoColor=e6edf3)](https://github.com/hemnaath04/job-os)
 
@@ -78,11 +80,11 @@ Joins municipal GIS sewer data to street-scan road-condition data, then scores e
 
 **Every day** Python · FastAPI · LangGraph · PostgreSQL (+ pgvector) · Docker
 **AI/ML** LLM orchestration · agentic systems · RAG and vector retrieval · evaluation harnesses · embeddings
-**Comfortable with** Java · MongoDB · async SQLAlchemy · Appwrite · Cloudflare R2 · Vercel / Render
+**Comfortable with** Java · MongoDB · async SQLAlchemy · Appwrite · Cloudflare R2 · Vercel / Heroku · Sentry
 
 ### Before this
 
-**EPAM Systems** — Test Automation Engineer on a ride-hailing fares platform, 2024 to 2025. Built CI-grade automation suites end to end in Go and Java, finished on that test-generation agent that started all this.
+**EPAM Systems** — Test Automation Engineer on a ride-hailing fares platform, 2024 to 2025. Wrote the Go and Java suites that gated the pricing engine's CI, triaged the daily failures, finished on that test-generation agent that started all this.
 
 **Northeastern University** — MS Computer Science, Khoury College, Jan 2026 to May 2028. Currently in reinforcement learning and NLP.
 
