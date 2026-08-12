@@ -6,6 +6,7 @@
   <a href="https://www.hemnaath.tech"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-e3b341?style=flat-square&logo=safari&logoColor=0d1117" /></a>
   <a href="https://linkedin.com/in/hemnaath04"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-30363d?style=flat-square&logo=linkedin&logoColor=e6edf3" /></a>
   <a href="mailto:balasubramani.h@northeastern.edu"><img alt="Email" src="https://img.shields.io/badge/Email-30363d?style=flat-square&logo=gmail&logoColor=e6edf3" /></a>
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=hemnaath04&label=Profile+views&color=30363d&style=flat-square" />
 </p>
 
 > [!NOTE]
