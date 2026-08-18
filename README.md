@@ -27,7 +27,7 @@ That's most of what I build now: agents that do real work, plus the scaffolding 
 
 > **A job tracker whose resume agent isn't allowed to lie about you.**
 
-It finds the jobs, ranks them, then tailors your resume for the one you pick. Discovery reads 85 company job boards plus feeds that carry every employer on them, and each posting gets scored against skills you've actually verified, so the list leads with what fits instead of what's newest. It also reads each posting for the things a fit score won't tell you: sponsorship, citizenship, clearance and export-control requirements, which is the difference between a role you might get and one you can't.
+It finds the jobs, ranks them, then tailors your resume for the one you pick. A crawler sweeps company job boards on a schedule and stores what it finds, so a search reads a pre-built index instead of fetching the internet live, and each posting gets scored against skills you've actually verified, so the list leads with what fits instead of what's newest. It also reads each posting for the things a fit score won't tell you: sponsorship, citizenship, clearance and export-control requirements, which is the difference between a role you might get and one you can't.
 
 The tailoring is the part with teeth. Every claim the agent writes has to trace back to something you already verified. After generation, unverified numbers get stripped, entities that never appeared in your source facts get rejected outright, and a version can't be finalized until it clears a deterministic score with zero blocking issues.
 
