@@ -1,4 +1,4 @@
-# Hemnaath Balasubramani
+<a href="https://www.hemnaath.tech"><img src="assets/skyline-2026-10.svg" width="100%" alt="Hemnaath Balasubramani, AI/ML engineer in Boston. An ASCII drawing of the Back Bay skyline across the Charles River at night, with lit windows, blinking aviation lights, a Red Line train on the Longfellow Bridge and lights shimmering on the water." /></a>
 
 **AI/ML engineer. I build LLM systems and then try to break them.**
 
@@ -21,7 +21,7 @@ The testing instinct came with me, and honestly it's the most useful thing I bro
 
 That's most of what I build now: agents that do real work, plus the scaffolding that catches them when they make things up. Everything below is deployed and running somewhere, not sitting in a notebook.
 
-**Jump to a project** → [job-os](#-job-os) · [RoleReveal](#-rolereveal) · [ClaimFarm](#-claimfarm) · [BedRocked](#-bedrocked)
+**Jump to a project** → [job-os](#-job-os) · [RoleReveal](#-rolereveal) · [ClaimFarm](#-claimfarm) · [BedRocked](#-bedrocked) · [new this fall](#-new-this-fall)
 
 ## 💼 [job-os](https://jobs.hemnaath.tech)
 
@@ -31,7 +31,7 @@ It finds the jobs, ranks them, then tailors your resume for the one you pick. A 
 
 The tailoring is the part with teeth. Every claim the agent writes has to trace back to something you already verified. After generation, unverified numbers get stripped, entities that never appeared in your source facts get rejected outright, and a version can't be finalized until it clears a deterministic score with zero blocking issues.
 
-**The part I'd talk about in an interview** — prompting the model to stay grounded didn't work reliably, so grounding became a validation pass the output has to survive. Same idea as a test suite gating a deploy, just pointed at a model. The scoring taught me the opposite lesson: my first version divided matched skills by the skills a posting named, which quietly gave a perfect score to any posting vague enough to name almost nothing. A mechanical engineering internship ranked above every AI role on the page. Cheap metrics fail in the direction that flatters them.
+**The part I'd talk about in an interview:** prompting the model to stay grounded didn't work reliably, so grounding became a validation pass the output has to survive. Same idea as a test suite gating a deploy, just pointed at a model. The scoring taught me the opposite lesson: my first version divided matched skills by the skills a posting named, which quietly gave a perfect score to any posting vague enough to name almost nothing. A mechanical engineering internship ranked above every AI role on the page. Cheap metrics fail in the direction that flatters them.
 
 `Python` `FastAPI` `LangGraph` `PostgreSQL + pgvector` `Typst / LaTeX` `Docker`
 
@@ -45,7 +45,7 @@ The tailoring is the part with teeth. Every claim the agent writes has to trace 
 
 Open a posting, see a fit score and a breakdown without leaving the page. Your name, email, phone and address get masked out before anything is sent to the model, so the scoring happens on skills and experience only.
 
-**The part I'd talk about in an interview** — the privacy layer wasn't a feature request, it was the constraint that made me redesign what actually gets sent. Turns out the model scores better without the PII anyway.
+**The part I'd talk about in an interview:** the privacy layer wasn't a feature request, it was the constraint that made me redesign what actually gets sent. Turns out the model scores better without the PII anyway.
 
 `JavaScript` `Chrome Extensions API` `LLM APIs`
 
@@ -57,7 +57,7 @@ Open a posting, see a fit score and a breakdown without leaving the page. Your n
 
 The pipeline cross-checks the claim against weather data for that location and date, runs photo forensics to catch reused or edited images, and hands a human adjuster a scored case instead of a raw photo.
 
-**The part I'd talk about in an interview** — the whole thing is a fraud-detection problem wearing a UX costume. The interesting work was deciding what the model is allowed to decide versus what a deterministic check has to settle before a human ever sees it.
+**The part I'd talk about in an interview:** the whole thing is a fraud-detection problem wearing a UX costume. The interesting work was deciding what the model is allowed to decide versus what a deterministic check has to settle before a human ever sees it.
 
 `Python` `Vision models` `Weather APIs` `Vercel`
 
@@ -69,25 +69,45 @@ The pipeline cross-checks the claim against weather data for that location and d
 
 Joins municipal GIS sewer data to street-scan road-condition data, then scores every segment for dig-readiness so the city can sequence repaving and sewer work together instead of tearing up the same street twice. Built at a 2026 hackathon.
 
-**The part I'd talk about in an interview** — two datasets that don't share a key. Getting a defensible spatial join between them was 80% of the work, and the scoring was the easy part after that.
+**The part I'd talk about in an interview:** two datasets that don't share a key. Getting a defensible spatial join between them was 80% of the work, and the scoring was the easy part after that.
 
 `Python` `pandas` `GeoPandas` `scikit-learn` `Vercel`
 
 [![Live](https://img.shields.io/badge/▶%20See%20it%20live-e3b341?style=for-the-badge&logoColor=0d1117)](https://sewershed-bedrocked.vercel.app) &nbsp;[![Source](https://img.shields.io/badge/Source-30363d?style=for-the-badge&logo=github&logoColor=e6edf3)](https://github.com/hemnaath04/bedrocked)
+
+## 📦 New this fall
+
+Smaller builds from the last few weeks, each one live or downloadable.
+
+**[LecRec](https://github.com/hemnaath04/LecRec)** · macOS menu bar app · Sep 2026<br>
+One button records a lecture, transcribes it on the Mac and writes a cross-checked note to Notion through a sandboxed agent run. On a 72-minute lecture where Whisper small marked 97% of the audio as non-English, the on-device model I switched to recovered 6,147 words at a third of the size. [Release v0.1.0 ↗](https://github.com/hemnaath04/LecRec/releases/tag/v0.1.0)<br>
+`Swift` `AppKit` `on-device speech` `Notion MCP`
+
+**[Canary Pact](https://canary-pact-web.vercel.app)** · Glasswing Ventures Test Flight, team of four · Sep 2026<br>
+A company modeled as a graph, so LLM department agents and a challenger can stress-test a proposed cost cut while deterministic code does every calculation and a person signs off. I owned the backend: contracts, LangGraph orchestration, the eval harness and the FastAPI service. [Source ↗](https://github.com/all3n2601/glasswing-canary-pact)<br>
+`Python` `LangGraph` `FastAPI` `Postgres`
+
+**[Site Safety Watch](https://site-safety-watch.vercel.app)** · Dell x NVIDIA local-AI hackathon, team lead · Oct 2026<br>
+An always-on agent that watches site cameras for blocked fire exits and posts Slack alerts citing the OSHA rule, with every model running on one Dell Pro Max GB10. Under load it kept 24 cameras checked about every seven seconds. [Source ↗](https://github.com/hemnaath04/site-safety-watch)<br>
+`Python` `vLLM` `Qwen3.6` `RT-DETR` `NemoClaw` `Slack`
+
+**[Binder](https://binder-care.vercel.app)** · built for the WebMCP Challenge · Aug 2026<br>
+A caregiver workspace that reads four separate patient portals over cross-origin WebMCP and flags drug conflicts none of them can see alone. Every write is staged and waits for a person to approve it. All patient data is invented. [Source ↗](https://github.com/hemnaath04/binder)<br>
+`WebMCP` `JavaScript` `Vercel`
 
 ---
 
 ### What I actually use
 
 **Every day** Python · FastAPI · LangGraph · PostgreSQL (+ pgvector) · Docker
-**AI/ML** LLM orchestration · agentic systems · RAG and vector retrieval · evaluation harnesses · embeddings
+**AI/ML** LLM orchestration · agentic systems · RAG and vector retrieval · evaluation harnesses · embeddings · vLLM · MCP
 **Comfortable with** Java · MongoDB · async SQLAlchemy · Appwrite · Cloudflare R2 · Vercel / Heroku · Sentry
 
 ### Before this
 
-**EPAM Systems** — Test Automation Engineer on a ride-hailing fares platform, 2024 to 2025. Wrote the Go and Java suites that gated the pricing engine's CI, triaged the daily failures, finished on that test-generation agent that started all this.
+**EPAM Systems.** Test Automation Engineer on a ride-hailing fares platform, 2024 to 2025. Wrote the Go and Java suites that gated the pricing engine's CI, triaged the daily failures, finished on that test-generation agent that started all this.
 
-**Northeastern University** — MS Computer Science, Khoury College, Jan 2026 to May 2028. Currently in reinforcement learning and NLP.
+**Northeastern University.** MS Computer Science, Khoury College, Jan 2026 to May 2028. Currently in information retrieval and NLP.
 
 ### Talk to me
 
